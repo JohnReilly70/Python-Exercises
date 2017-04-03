@@ -15,8 +15,7 @@ def j_max_3(number1, number2, number3):
         return number3
 
 def j_max (num_list):
-    #smallest possible float number
-    maximum = 2.2250738585072014e-308
+    maximum = num_list[0]
     for num in num_list:
         if num > maximum:
             maximum = num
